@@ -1,0 +1,37 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: black;
+}
+
+.container {
+  width: 550px;
+  height: 120px;
+  background-color: rgb(239, 151, 9);
+  border-radius: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+  min-width: 400px;
+  padding: 70px 20px;
+  margin: 5px;
+  color: white;
+  position: relative;
+}
+
+img {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: -60px;
+}
+
+.username {
+  font-size: 13px;
+  font-weight: 100;
+}
